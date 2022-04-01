@@ -10,15 +10,18 @@ Chocolate fraco = #632D0B
 
 */
 
-/*--------------------------*/
-/*  ELEMENTOS DO HEADER     */
-/*--------------------------*/
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/*--------------------------*/
+/*  ELEMENTOS DO HEADER     */
+/*--------------------------*/
+
+/* MENU */
 
 header#principal{
     width: 100%;
@@ -69,4 +72,19 @@ nav#principal-menu div#menu-botao-botao{
     border-radius: 20px;
 
     background: linear-gradient(rgba(47, 22, 11, 1) 0, rgba(99,45,11, 0.8) 50%, rgba(99,45,11, 0.8) 100%);
+}
+
+/* iMAGEM */
+
+header div#principal-img{
+    width: 100%;
+    height: 350px;
+    background-color: aqua;
+}
+
+header div#principal-img img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
