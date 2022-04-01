@@ -9,3 +9,64 @@ Chocolate = #2F160B
 Chocolate fraco = #632D0B
 
 */
+
+/*--------------------------*/
+/*  ELEMENTOS DO HEADER     */
+/*--------------------------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header#principal{
+    width: 100%;
+    height: 500px;
+    background-position: center center;
+}
+
+header nav#principal-menu{
+    width: 100%;
+    height: 150px;
+    background-color: #FAAF9A;
+    padding-top: 15px;
+}
+
+nav#principal-menu div#logo{
+    width: 10%;
+    height: 90%;
+
+    float: left;
+    margin-left: 120px;
+}
+
+div#logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav#principal-menu ul#menu-descktop{
+    width: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 40px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+}
+
+nav#principal-menu ul#menu-botao{
+    float: right;
+    margin-right: 8%;
+    margin-top: 30px;
+}
+
+nav#principal-menu div#menu-botao-botao{    
+    background-color: #632D0B;
+    padding: 10px 30px;
+    border-radius: 20px;
+
+    background: linear-gradient(rgba(47, 22, 11, 1) 0, rgba(99,45,11, 0.8) 50%, rgba(99,45,11, 0.8) 100%);
+}
