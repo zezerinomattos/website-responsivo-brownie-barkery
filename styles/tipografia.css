@@ -1,0 +1,30 @@
+/*
+FONTES
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Fredoka One', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Titan One', cursive;
+font-family: 'Ubuntu', sans-serif;
+
+*/
+
+/*
+CORES
+Amarelo queimado = #BF7E04;
+Verniz claro = #591202
+Verniz escuro = #260101
+
+Salmao = #FAAF9A
+Chocolate = #2F160B
+Chocolate fraco = #632D0B
+
+*/
+
+*{
+    font-size: 16px;
+}
+
+h1, h2{
+    font-size: 500%;
+    font-family: 'Titan One', cursive;
+}
