@@ -70,6 +70,8 @@ nav#principal-menu ul#menu-botao{
     border-width: 2px;
     border-radius: 25px;
     padding: 1px;
+
+    cursor: pointer;
 }
 
 nav#principal-menu div#menu-botao-botao{    
@@ -77,9 +79,7 @@ nav#principal-menu div#menu-botao-botao{
     padding: 10px 30px;
     border-radius: 20px;
 
-    background: linear-gradient(rgba(47, 22, 11, 1) 0, rgba(99,45,11, 0.8) 50%, rgba(99,45,11, 0.8) 100%);
-
-    
+    background: linear-gradient(rgba(47, 22, 11, 1) 0, rgba(99,45,11, 0.8) 50%, rgba(99,45,11, 0.8) 100%);   
 }
 
 /* iMAGEM */
@@ -94,4 +94,22 @@ header div#principal-img img{
     height: 100%;
     max-width: 100%;
     max-height: 100%;
+}
+
+/*--------------------------*/
+/*   SECTION APRESENTAÇÃO   */
+/*--------------------------*/
+
+section#apresentacao{
+    width: 100%;
+    height: 800px;
+    background-color: #2F160B;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
 }

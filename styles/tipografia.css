@@ -7,6 +7,7 @@ font-family: 'Titan One', cursive;
 font-family: 'Ubuntu', sans-serif;
 font-family: 'Concert One', cursive;
 font-family: 'Almarai', sans-serif;
+font-family: 'Roboto Slab', serif;
 */
 
 /*
@@ -26,7 +27,7 @@ Chocolate fraco = #632D0B
 }
 
 h1, h2{
-    font-size: 500%;
+    font-size: 350%;
     font-family: 'Titan One', cursive;
 }
 
@@ -53,4 +54,29 @@ nav#principal-menu div#menu-botao-botao a{
     text-decoration: none;
     font-family: 'Fira Sans', sans-serif;
     color: #FFFF;
+}
+
+/*--------------------------*/
+/*   SECTION APRESENTAÇÃO   */
+/*--------------------------*/
+
+section#apresentacao h1{
+    color: #FFFF;
+    margin-bottom: 30px;
+}
+
+section#apresentacao p{
+    width: 55%;
+    font-family: 'Roboto Slab', serif;
+    color: #FFFF;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: center;   
+}
+
+section#apresentacao hr{
+    width: 10%;
+    height: 4px;
+    border: none;
+    background-color: rgb(114, 10, 10);
 }
