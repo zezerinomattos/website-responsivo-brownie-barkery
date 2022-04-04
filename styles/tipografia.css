@@ -76,7 +76,30 @@ section#apresentacao p{
 
 section#apresentacao hr{
     width: 10%;
-    height: 4px;
+    height: 3px;
     border: none;
     background-color: rgb(114, 10, 10);
 }
+
+section#apresentacao div#apresentacao-principal{
+    width: 70%;
+    margin-top: 40px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+div#apresentacao-principal .apresentacao-brownies{
+    width: 33.3%;
+    height: 270px;
+    text-align: center;   
+}
+
+.apresentacao-brownies img{
+    max-width: 100%;
+    max-height: 100%;
+
+    box-shadow:  -2px  2px 6px  #632D0B;
+}
+
