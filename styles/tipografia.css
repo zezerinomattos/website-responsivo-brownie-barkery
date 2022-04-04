@@ -19,7 +19,7 @@ Verniz escuro = #260101
 Salmao = #FAAF9A
 Chocolate = #2F160B
 Chocolate fraco = #632D0B
-
+Vermelho = #cb032c
 */
 
 *{
@@ -81,25 +81,24 @@ section#apresentacao hr{
     background-color: rgb(114, 10, 10);
 }
 
-section#apresentacao div#apresentacao-principal{
-    width: 70%;
-    margin-top: 40px;
-
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+div#apresentacao-inf div#apresentacao-inf-centro{
+    padding: 2px;
+    border-radius: 35px;
+    background-color: #cb032c;
+    border: 1px solid #ffff;
 }
 
-div#apresentacao-principal .apresentacao-brownies{
-    width: 33.3%;
-    height: 270px;
-    text-align: center;   
+div#apresentacao-inf div#apresentacao-inf-centro-botao{
+    font-family: 'Almarai', sans-serif;
+    color: #FFFF;
+    background: linear-gradient(rgba(203,3,44, 0.8) 0%, rgba(114, 10, 10) 50%, rgba(203,3,44, 0.8) 100%);
+    padding: 10px 30px;
+    border-radius: 30px;
+
+    border: 1px solid #fff;
+
 }
 
-.apresentacao-brownies img{
-    max-width: 100%;
-    max-height: 100%;
-
-    box-shadow:  -2px  2px 6px  #632D0B;
+div#apresentacao-inf-centro-botao h3{
+    font-size: 130%;
 }
-

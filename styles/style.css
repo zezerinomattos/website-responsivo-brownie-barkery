@@ -113,3 +113,50 @@ section#apresentacao{
     justify-content: flex-start;
     align-items: center;
 }
+
+section#apresentacao div#apresentacao-principal{
+    width: 70%;
+    margin-top: 40px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+div#apresentacao-principal .apresentacao-brownies{
+    width: 33.3%;
+    height: 270px;
+    text-align: center;   
+}
+
+.apresentacao-brownies img{
+    max-width: 100%;
+    max-height: 100%;
+
+    box-shadow:  -2px  2px 6px  #632D0B;
+}
+
+section#apresentacao div#apresentacao-inf{
+    margin-top: 80px;
+    width: 65%;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div#apresentacao-inf div#apresentacao-inf-esquerda{
+    background-image: url(../imagens/transicao-botao.png);
+    background-repeat: no-repeat;
+    width: 33.3%;
+    height: 50px;
+
+}
+
+div#apresentacao-inf div#apresentacao-inf-direita{
+    background-image: url(../imagens/transicao-botao.png);
+    background-repeat: no-repeat;
+    width: 33.3%;
+    height: 50px;
+    background-position: right;
+}
