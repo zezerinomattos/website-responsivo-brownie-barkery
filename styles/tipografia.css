@@ -96,9 +96,10 @@ div#apresentacao-inf div#apresentacao-inf-centro-botao{
     border-radius: 30px;
 
     border: 1px solid #fff;
-
+    cursor: pointer;
 }
 
 div#apresentacao-inf-centro-botao h3{
     font-size: 130%;
+    text-transform: uppercase;
 }
