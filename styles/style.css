@@ -16,6 +16,9 @@ Chocolate fraco = #632D0B
     box-sizing: border-box;
 }
 
+body{
+    background-color: #2F160B;
+}
 
 /*--------------------------*/
 /*  ELEMENTOS DO HEADER     */
@@ -102,8 +105,7 @@ header div#principal-img img{
 
 section#apresentacao{
     width: 100%;
-    height: 800px;
-    background-color: #2F160B;
+    height: 800px;   
     padding-top: 80px;
     padding-bottom: 80px;
 
@@ -172,6 +174,8 @@ section#como-encontrar{
     flex-flow: row wrap;
     justify-content: space-between;
     background-color: #FAAF9A;
+
+    margin-bottom: 80px;
 }
 
 section#como-encontrar div#como-encontrar-esquerda{
