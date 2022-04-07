@@ -103,3 +103,23 @@ div#apresentacao-inf-centro-botao h3{
     font-size: 130%;
     text-transform: uppercase;
 }
+
+/*--------------------------*/
+/*   SECTION COMO ENCONTRAR */
+/*--------------------------*/
+
+div#como-encontrar-direita .informacao-como-encontrar h4{
+    font-family: 'Pacifico', cursive;
+    color: #441f0f;
+    font-size: 120%;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+div#como-encontrar-direita .informacao-como-encontrar p{
+    color: #632D0B;
+    font-family: 'Almarai', sans-serif;
+    font-size: 90%;
+    margin-top: 15px;
+    line-height: 1.6;
+}
