@@ -15,9 +15,12 @@ Chocolate fraco = #632D0B
     margin: 0;
     box-sizing: border-box;
 }
-
 body{
     background-color: #2F160B;
+    
+}
+::-webkit-scrollbar {
+    display: none;
 }
 
 /*--------------------------*/

@@ -87,10 +87,11 @@ div#apresentacao-inf div#apresentacao-inf-centro{
     border-radius: 35px;
     background-color: #cb032c;
     border: 1px solid #ffff;
+
+    cursor: pointer;
 }
 
 div#apresentacao-inf div#apresentacao-inf-centro-botao{
-    font-family: 'Almarai', sans-serif;
     color: #FFFF;
     background: linear-gradient(rgba(203,3,44, 0.8) 0%, rgba(114, 10, 10) 50%, rgba(203,3,44, 0.8) 100%);
     padding: 10px 30px;
@@ -102,6 +103,7 @@ div#apresentacao-inf div#apresentacao-inf-centro-botao{
 
 div#apresentacao-inf-centro-botao h3{
     font-size: 130%;
+    font-family: 'Almarai', sans-serif;
     text-transform: uppercase;
 }
 
@@ -162,7 +164,7 @@ div#mais-amados-imagem div.mais-amados-menu h2{
 }
 
 div#mais-amados-imagem div.mais-amados-menu p{
-    width: 90%;
+    width: 80%;
 }
 
 div#mais-amados-imagem div.mais-amados-menu hr{
@@ -172,4 +174,30 @@ div#mais-amados-imagem div.mais-amados-menu hr{
     border: none;
     background-color: rgb(114, 10, 10);
     margin-bottom: 40px;
+}
+
+section#mais-amados div#mais-amados-inferior{
+    padding: 2px;
+    border-radius: 35px;
+    background-color: #cb032c;
+    border: 1px solid #ffff;
+    margin-top: 50px;
+
+    cursor: pointer;
+}
+
+div#mais-amados-inferior div#ais-amados-inferior-botao{
+    background: linear-gradient(rgba(203,3,44, 0.8) 0%, rgba(114, 10, 10) 50%, rgba(203,3,44, 0.8) 100%);
+    padding: 10px 30px;
+    border-radius: 30px;
+
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+section#mais-amados h3{
+    font-size: 130%;
+    font-family: 'Almarai', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
 }
