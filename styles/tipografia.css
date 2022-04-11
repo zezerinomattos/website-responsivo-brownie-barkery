@@ -63,6 +63,7 @@ nav#principal-menu div#menu-botao-botao a{
 section#apresentacao h1{
     color: #FFFF;
     margin-bottom: 30px;
+    text-transform: uppercase;
 }
 
 section#apresentacao p{
@@ -127,3 +128,27 @@ div#como-encontrar-direita .informacao-como-encontrar p{
 /*--------------------------*/
 /*   SECTION OS MAIS AMADOS */
 /*--------------------------*/
+
+section#mais-amados h1{
+    color: #FFFF;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+    margin-bottom: 30px;
+}
+
+section#mais-amados p{
+    width: 55%;
+    font-family: 'Roboto Slab', serif;
+    color: #FFFF;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+section#mais-amados hr{
+    width: 10%;
+    height: 3px;
+    border: none;
+    background-color: rgb(114, 10, 10);
+}

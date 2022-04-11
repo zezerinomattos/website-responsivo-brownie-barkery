@@ -226,3 +226,16 @@ div#como-encontrar-direita div#como-encontrar-direita-inf{
 /*--------------------------*/
 /*   SECTION OS MAIS AMADOS */
 /*--------------------------*/
+
+section#mais-amados{
+    width: 100%;
+    margin-bottom: 80px;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+
