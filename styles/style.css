@@ -238,4 +238,32 @@ section#mais-amados{
     justify-content: center;
 }
 
+section#mais-amados div#mais-amados-imagem{
+    width: 80%;   
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
 
+div#mais-amados-imagem div.mais-amados-menu{
+    width: 25%;
+    height: 100%;
+    padding: 0 5px;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+div#mais-amados-imagem div.mais-amados-menu img{
+    width: 100%;
+    height: 250px;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 30px;
+
+    box-shadow:  -4px  4px 6px  #632D0B;
+}

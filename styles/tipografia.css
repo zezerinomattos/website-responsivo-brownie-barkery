@@ -151,4 +151,25 @@ section#mais-amados hr{
     height: 3px;
     border: none;
     background-color: rgb(114, 10, 10);
+    margin-bottom: 20px;
+}
+
+div#mais-amados-imagem div.mais-amados-menu h2{
+    font-size: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FAAF9A;
+}
+
+div#mais-amados-imagem div.mais-amados-menu p{
+    width: 90%;
+}
+
+div#mais-amados-imagem div.mais-amados-menu hr{
+    margin-top: 40px;
+    width: 30%;
+    height: 3px;
+    border: none;
+    background-color: rgb(114, 10, 10);
+    margin-bottom: 40px;
 }
