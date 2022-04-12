@@ -17,6 +17,7 @@ Verniz claro = #591202
 Verniz escuro = #260101
 
 Salmao = #FAAF9A
+Salmao fraco = #FABFAF
 Chocolate = #2F160B
 Chocolate fraco = #632D0B
 Vermelho = #cb032c
@@ -201,3 +202,7 @@ section#mais-amados h3{
     color: #fff;
     text-transform: uppercase;
 }
+
+/*--------------------------*/
+/*  ELEMENTOS DO SOBRE      */
+/*--------------------------*/
