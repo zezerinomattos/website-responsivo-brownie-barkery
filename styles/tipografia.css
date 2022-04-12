@@ -235,4 +235,22 @@ section#sobre div#sobre-esquerda p{
 /*--------------------------*/
 /*  ELEMENTOS DO CONTATO    */
 /*--------------------------*/
+section#contato div#inf-localizacao, section#contato div#inf-horario{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+}
+section#contato div#contato-localizacao ion-icon{
+    font-size: 130%;
+    color: #441f0f;
+    margin-top: 1.1rem;
+    margin-left: .5rem;
+}
 
+section#contato div#contato-localizacao p{
+    font-family: 'Almarai', sans-serif;
+    font-size: 90%;
+    color: #441f0f;
+    margin-top: 1.3rem;
+    margin-left: .5rem;
+}
