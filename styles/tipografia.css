@@ -206,3 +206,28 @@ section#mais-amados h3{
 /*--------------------------*/
 /*  ELEMENTOS DO SOBRE      */
 /*--------------------------*/
+
+section#sobre div#sobre-esquerda h1{
+    color: #fff;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+    text-transform: uppercase;
+}
+
+section#sobre div#sobre-esquerda hr{
+    width: 25%;
+    background-color: #fff;
+    margin-bottom: 3rem;
+}
+
+section#sobre div#sobre-esquerda p{
+    width: 70%;
+    color: #fff;
+    font-family: 'Almarai', sans-serif;
+    font-size: 110%;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: 400;
+    
+}

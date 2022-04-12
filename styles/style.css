@@ -5,8 +5,10 @@ Verniz claro = #591202
 Verniz escuro = #260101
 
 Salmao = #FAAF9A
+Salmao fraco = #FABFAF
 Chocolate = #2F160B
 Chocolate fraco = #632D0B
+Vermelho = #cb032c
 
 */
 
@@ -284,15 +286,20 @@ section#sobre{
     flex-flow: row wrap;
     justify-content: flex-start;
 
-    background-color: aqua;
+
     margin-bottom: 80px;
 }
 
 section#sobre div#sobre-esquerda{
     width: 60%;
     height: 100%;
+    background-color: #cb032c;
+    align-items: center;
 
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 }
 
 section#sobre div#sobre-direita{
