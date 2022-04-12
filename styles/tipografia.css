@@ -235,6 +235,32 @@ section#sobre div#sobre-esquerda p{
 /*--------------------------*/
 /*  ELEMENTOS DO CONTATO    */
 /*--------------------------*/
+
+section#contato div#contato-formulario h3{
+    font-size: 140%;
+    font-family: 'Almarai', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    color: #441f0f;
+}
+
+section#contato div#contato-formulario #form-mensagem-botao{
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-size: 120%;
+    font-weight: 600;
+    background: linear-gradient(rgba(203,3,44, 0.8) 0%, rgba(114, 10, 10) 50%, rgba(203,3,44, 0.8) 100%);   
+    padding: .5rem 34.5%;
+    margin-top: .5rem;
+    
+
+    border: 1px solid rgba(114, 10, 10);
+    border-radius: 8px;
+}
+
+/* Mapa */
+
 section#contato div#inf-localizacao, section#contato div#inf-horario{
     display: flex;
     flex-flow: row wrap;
