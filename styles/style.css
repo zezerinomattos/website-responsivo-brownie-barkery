@@ -47,9 +47,13 @@ header nav#principal-menu{
 nav#principal-menu div#logo{
     width: 10%;
     height: 90%;
-
     float: left;
     margin-left: 120px;
+
+    animation-name: Nave-LogoMenu-imagem;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
 }
 
 div#logo img{
@@ -66,6 +70,11 @@ nav#principal-menu ul#menu-descktop{
     display: flex;
     flex-flow: row wrap;
     justify-content: right;
+
+    animation-name: Nave-LogoMenu-imagem;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
 }
 
 nav#principal-menu ul#menu-botao{
@@ -80,6 +89,11 @@ nav#principal-menu ul#menu-botao{
     padding: 1px;
 
     cursor: pointer;
+
+    animation-name: Nave-LogoMenu-imagem;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
 }
 
 nav#principal-menu div#menu-botao-botao{    
@@ -95,6 +109,11 @@ nav#principal-menu div#menu-botao-botao{
 header div#principal-img{
     width: 100%;
     height: 450px;
+
+    animation-name: Nave-LogoMenu-imagem;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
 }
 
 header div#principal-img img{

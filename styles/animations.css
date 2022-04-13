@@ -1,0 +1,13 @@
+/*Animacao do nave menu*/
+
+@keyframes Nave-LogoMenu-imagem{
+    0%{
+        opacity: 0;
+    }
+    80%{
+        opacity: .6;
+    }
+    100%{
+        opacity: 1;
+    }
+}
