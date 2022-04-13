@@ -285,3 +285,54 @@ section#contato div#contato-localizacao p{
     margin-top: 1.3rem;
     margin-left: .5rem;
 }
+
+/*--------------------------*/
+/*  ELEMENTOS DO FUTER      */
+/*--------------------------*/
+
+/* Contato */
+
+div#footer-principal div#footer-principal-contato h3, div#footer-principal-menu h3, div#footer-principal-redes-sociais h3{
+    font-family: 'Almarai', sans-serif;
+    font-size: 180%;
+    color: #fff;
+    margin: 2rem .9rem 1.5rem;
+}
+
+div#footer-principal-contato ul.footer-contato li ion-icon{
+    font-size: 130%;
+    margin-right: 10px;
+    color: #fff;
+}
+
+div#footer-principal-contato ul.footer-contato li a, div#footer-principal-menu ul li a{
+    font-family: 'Almarai', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* Menu */
+
+div#footer-principal div#footer-principal-menu ul li{
+    display: flex;
+    margin-top: .8rem;
+    margin-left: .8rem;
+}
+
+/* Rede-sociais */
+
+div#footer-principal div#footer-principal-redes-sociais ul li{
+    display: flex;
+    margin-left: .8rem;
+}
+
+div#footer-principal div#footer-principal-redes-sociais ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+div#footer-principal div#footer-principal-redes-sociais ul li a ion-icon{
+    font-size: 180%;
+}
+ 

@@ -388,3 +388,92 @@ section#contato div#contato-localizacao{
     margin-left: .5rem;
     box-shadow: -4px 4px 6px #632D0B;
 }
+
+/*--------------------------*/
+/*  ELEMENTOS DO FUTER      */
+/*--------------------------*/
+
+footer.footer{
+    width: 100%;
+    height: 200px;
+}
+
+footer.footer div#footer-principal{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+/* Logo */
+
+div#footer-principal div#footer-principal-logo{
+    width: 25%;
+    height: 100%;
+}
+
+div#footer-principal-logo div#footer-logo-img{
+    width: 70%;
+    height: 70%;
+    margin: 2.2rem auto;
+}
+
+div#footer-logo-img img{
+    width: 100%;
+    height: 100%;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Contato */
+
+div#footer-principal div#footer-principal-contato{
+    width: 25%;
+    height: 100%;
+}
+
+div#footer-principal-contato ul.footer-contato{
+    width: 90%;
+    margin-left: 1rem;
+}
+
+div#footer-principal-contato ul.footer-contato li{
+    display: flex;
+    flex-flow: row;
+    margin-top: .6rem;
+}
+
+/* Menu */
+
+div#footer-principal div#footer-principal-menu{
+    width: 25%;
+    height: 100%;
+}
+
+ div#footer-principal-menu ul#footer-menu{
+    width: 90%;
+    margin-left: .5rem;
+}
+
+/* Rede-sociais */
+
+div#footer-principal div#footer-principal-redes-sociais{
+    width: 25%;
+    height: 100%;
+}
+
+div#footer-principal div#footer-principal-redes-sociais ul{
+    width: 90%;
+    margin-left: .5rem;
+
+    display: flex;
+    flex-flow: row ;
+}
+
+
+
+
