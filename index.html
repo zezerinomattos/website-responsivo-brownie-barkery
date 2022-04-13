@@ -178,8 +178,15 @@
             <div class="form-campos">
               <input type="text" name="telefone" id="telefone" class="formulario" placeholder="Telefone">
             </div>
-            <div class="form-campos">
-              <input type="text" name="assunto" id="assunto" class="formulario" placeholder="Sobre o pedido">
+            <div>
+              <label for="assunto">Escolha o assunto</label> <br>
+              <select name="assunto" id="assunto">
+                <option value="item1">Sobre o pedido</option>
+                <option value="orcamento">Orçamento</option>
+                <option value="entrega">Entrega</option>
+                <option value="encomenda">Encomenda</option>
+                <option value="outro">Outro</option>
+              </select>
             </div>
             <div id="form-campos-textArea">
               <textarea name="mensagem" id="mensagem" rows="5" placeholder="Mensagem"></textarea>

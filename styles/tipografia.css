@@ -245,6 +245,11 @@ section#contato div#contato-formulario h3{
     color: #441f0f;
 }
 
+div#contato-formulario label{
+    font-family: 'Almarai', sans-serif;
+    color: #c2674e;
+}
+
 section#contato div#contato-formulario #form-mensagem-botao{
     font-family: 'Ubuntu', sans-serif;
     color: #fff;
@@ -253,7 +258,7 @@ section#contato div#contato-formulario #form-mensagem-botao{
     background: linear-gradient(rgba(203,3,44, 0.8) 0%, rgba(114, 10, 10) 50%, rgba(203,3,44, 0.8) 100%);   
     padding: .5rem 34.5%;
     margin-top: .5rem;
-    
+    text-transform: uppercase;
 
     border: 1px solid rgba(114, 10, 10);
     border-radius: 8px;

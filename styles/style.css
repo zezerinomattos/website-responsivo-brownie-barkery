@@ -338,7 +338,7 @@ section#contato div#contato-formulario{
     box-shadow: -4px 4px 6px #632D0B;
 }
 
-div#contato-formulario form input.formulario{
+div#contato-formulario form input.formulario,select#assunto{
     background-color: #FABFAF;   
     color: #c2674e;
     padding-left: .5rem;
@@ -350,11 +350,21 @@ div#contato-formulario form input.formulario{
     outline: none;   
 }
 
+div#contato-formulario label{
+    display: flex;
+    justify-content: left;
+
+    margin-left: 3.3rem;
+    margin-top: .8rem;
+    margin-bottom: -1.9rem;
+}
+
 div#contato-formulario input::placeholder {
     color: #df9884;
   }
 
 div#contato-formulario form textarea#mensagem{
+    font-size: 110%;
     background-color: #FABFAF;
     color: #c2674e;
     padding-left: .5rem;
