@@ -93,13 +93,18 @@ div#apresentacao-inf div#apresentacao-inf-centro{
 }
 
 div#apresentacao-inf div#apresentacao-inf-centro-botao{
-    color: #FFFF;
+    
     background: linear-gradient(rgba(203,3,44, 0.8) 0%, rgba(114, 10, 10) 50%, rgba(203,3,44, 0.8) 100%);
     padding: 10px 30px;
     border-radius: 30px;
 
     border: 1px solid #fff;
     cursor: pointer;
+}
+
+div#apresentacao-inf div#apresentacao-inf-centro-botao a{
+    text-decoration: none;
+    color: #FFFF;
 }
 
 div#apresentacao-inf-centro-botao h3{
