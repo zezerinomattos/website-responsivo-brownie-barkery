@@ -37,14 +37,14 @@ $('section#apresentacao div#apresentacao-principal').waypoint(function(direcao){
     if(direcao == 'down'){
         $('section#apresentacao div#apresentacao-inf-esquerda').addClass('animate__animated animate__fadeInLeft animate__slower');
 
-        $('section#apresentacao div#apresentacao-inf-centro').addClass('animate__animated animate__fadeInUpBig animate__slow');
+        $('section#apresentacao div#apresentacao-inf-centro').addClass('animate__animated animate__fadeInUp animate__slow');
 
         $('section#apresentacao div#apresentacao-inf-direita').addClass('animate__animated animate__fadeInRight animate__slower');
 
     }else{
         $('section#apresentacao div#apresentacao-inf-esquerda').removeClass('animate__animated animate__fadeInLeft animate__slower');
 
-        $('section#apresentacao div#apresentacao-inf-centro').removeClass('animate__animated animate__fadeInUpBig animate__slower');
+        $('section#apresentacao div#apresentacao-inf-centro').removeClass('animate__animated animate__fadeInUp animate__slower');
 
         $('section#apresentacao div#apresentacao-inf-direita').removeClass('animate__animated animate__fadeInRight animate__slower');
     }
@@ -52,3 +52,34 @@ $('section#apresentacao div#apresentacao-principal').waypoint(function(direcao){
     offset:'600px;'
 })
 
+
+/*--------------------------*/
+/*   SECTION MAIS AMADOS    */
+/*--------------------------*/
+
+//Deixando os elementos com opacidade 0
+
+$('section#mais-amados p, section#mais-amados h1, section#mais-amados hr').css('opacity', 0)
+
+$('section#mais-amados h1').waypoint(function(direcao){
+    if(direcao == 'down'){
+        $('section#mais-amados p, section#mais-amados h1, section#mais-amados hr').addClass('animate__animated animate__fadeInUp animate__slower');
+        
+        $('div#mais-amados-imagem div.mais-amados-menu:eq(0)').addClass('animate__animated animate__fadeInLeft animate__slower');
+
+        $('div#mais-amados-imagem div.mais-amados-menu:eq(3)').addClass('animate__animated animate__fadeInRight animate__slower');
+
+        $('div#mais-amados-imagem div.mais-amados-menu:eq(1), div#mais-amados-imagem div.mais-amados-menu:eq(2)').addClass('animate__animated animate__fadeInUp animate__slower');
+
+    }else{
+        $('section#mais-amados p, section#mais-amados h1, section#mais-amados hr').removeClass('animate__animated animate__fadeInUp animate__slower');
+        
+        $('div#mais-amados-imagem div.mais-amados-menu:eq(0)').removeClass('animate__animated animate__fadeInLeft animate__slower');
+
+        $('div#mais-amados-imagem div.mais-amados-menu:eq(3)').removeClass('animate__animated animate__fadeInRight animate__slower');
+
+        $('div#mais-amados-imagem div.mais-amados-menu:eq(1), div#mais-amados-imagem div.mais-amados-menu:eq(2)').removeClass('animate__animated animate__fadeInUp animate__slower');
+    }
+}, {
+    offset:'600px;'
+})
