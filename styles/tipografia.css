@@ -143,6 +143,7 @@ section#mais-amados h1{
     text-transform: uppercase;
 
     margin-bottom: 30px;
+    
 }
 
 section#mais-amados p{
@@ -167,6 +168,9 @@ div#mais-amados-imagem div.mais-amados-menu h2{
     text-align: center;
     text-transform: uppercase;
     color: #FAAF9A;
+
+    transform-origin: bottom center;
+    transition: all 0.6s ease-out;
 }
 
 div#mais-amados-imagem div.mais-amados-menu p{

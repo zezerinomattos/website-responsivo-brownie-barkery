@@ -83,3 +83,4 @@ $('section#mais-amados h1').waypoint(function(direcao){
 }, {
     offset:'600px;'
 })
+

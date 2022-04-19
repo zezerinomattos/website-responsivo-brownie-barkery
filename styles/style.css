@@ -272,7 +272,7 @@ section#mais-amados div#mais-amados-imagem{
 }
 
 div#mais-amados-imagem div.mais-amados-menu{
-    width: 25%;
+    width: 24.5%;
     height: 100%;
     padding: 0 5px;
     align-items: center;
@@ -291,6 +291,9 @@ div#mais-amados-imagem div.mais-amados-menu img{
     margin-bottom: 30px;
 
     box-shadow:  -4px  4px 6px  #632D0B;
+    transform-origin: bottom center;
+    transition: all 0.6s ease-out;
+    cursor: pointer;
 }
 
 /*--------------------------*/
