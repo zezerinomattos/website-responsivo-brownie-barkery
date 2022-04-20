@@ -69,7 +69,7 @@ $('section#mais-amados h1').waypoint(function(direcao){
 
         $('div#mais-amados-imagem div.mais-amados-menu:eq(3)').addClass('animate__animated animate__fadeInRight animate__slower');
 
-        $('div#mais-amados-imagem div.mais-amados-menu:eq(1), div#mais-amados-imagem div.mais-amados-menu:eq(2)').addClass('animate__animated animate__fadeInUp animate__slower');
+        $('div#mais-amados-imagem div.mais-amados-menu:eq(1), div#mais-amados-imagem div.mais-amados-menu:eq(2)').addClass('animate__animated animate__fadeIn animate__slower');
 
     }else{
         $('section#mais-amados p, section#mais-amados h1, section#mais-amados hr').removeClass('animate__animated animate__fadeInUp animate__slower');
@@ -78,7 +78,7 @@ $('section#mais-amados h1').waypoint(function(direcao){
 
         $('div#mais-amados-imagem div.mais-amados-menu:eq(3)').removeClass('animate__animated animate__fadeInRight animate__slower');
 
-        $('div#mais-amados-imagem div.mais-amados-menu:eq(1), div#mais-amados-imagem div.mais-amados-menu:eq(2)').removeClass('animate__animated animate__fadeInUp animate__slower');
+        $('div#mais-amados-imagem div.mais-amados-menu:eq(1), div#mais-amados-imagem div.mais-amados-menu:eq(2)').removeClass('animate__animated animate__fadeIn animate__slower');
     }
 }, {
     offset:'600px;'
