@@ -84,3 +84,30 @@ $('section#mais-amados h1').waypoint(function(direcao){
     offset:'600px;'
 })
 
+/*--------------------------*/
+/*   SECTION OS MAIS AMADOS */
+/*--------------------------*/
+//Deixando os elementos com opacidade 0
+
+$('section#sobre div#sobre-esquerda h1, section#sobre div#sobre-esquerda hr').css('opacity', 0);
+
+//---------------------------------
+
+$('section#sobre div#sobre-esquerda h1').waypoint(function(direcao){
+    if(direcao == 'down'){
+        $('section#sobre div#sobre-esquerda h1, section#sobre div#sobre-esquerda hr').addClass('animate__animated animate__fadeInLeft animate__slow');
+
+        $('section#sobre div#sobre-esquerda p').addClass('animate__animated animate__zoomIn animate__slower');
+
+        $('section#sobre div#sobre-direita img').addClass('animate__animated animate__zoomIn animate__slower');
+
+    }else{
+        $('section#sobre div#sobre-esquerda h1, section#sobre div#sobre-esquerda hr').removeClass('animate__animated animate__fadeInLeft animate__slow');
+
+        $('section#sobre div#sobre-esquerda p').removeClass('animate__animated animate__zoomIn animate__slower');
+
+        $('section#sobre div#sobre-direita img').removeClass('animate__animated animate__zoomIn animate__slower');
+    }
+}, {
+    offset:'600px;'
+})
