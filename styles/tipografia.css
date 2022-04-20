@@ -40,8 +40,6 @@ nav#principal-menu ul#menu-descktop li{
     list-style: none;
     margin-left: 1.5%; 
     margin-right: 5%;  
-
-    font-size: 120%;
 }
 
 nav#principal-menu ul#menu-descktop li a{
@@ -49,6 +47,8 @@ nav#principal-menu ul#menu-descktop li a{
     color: #632D0B;
     font-family: 'Almarai', sans-serif;
     font-weight: 600;
+    
+    font-size: 90%;
 }
 
 nav#principal-menu div#menu-botao-botao a{
@@ -141,8 +141,6 @@ section#mais-amados h1{
     color: #FFFF;
     margin-bottom: 30px;
     text-transform: uppercase;
-
-    margin-bottom: 30px;
     
 }
 

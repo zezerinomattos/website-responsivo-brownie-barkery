@@ -128,8 +128,7 @@ header div#principal-img img{
 /*--------------------------*/
 
 section#apresentacao{
-    width: 100%;
-    height: 800px;   
+    width: 100%;   
     padding-top: 80px;
     padding-bottom: 80px;
 
@@ -175,7 +174,8 @@ section#apresentacao div#apresentacao-inf{
 div#apresentacao-inf div#apresentacao-inf-esquerda{
     background-image: url(../imagens/transicao-botao.png);
     background-repeat: no-repeat;
-    width: 33.3%;
+    background-size: contain;
+    width: 30%;
     height: 50px;
 
 }
@@ -183,7 +183,8 @@ div#apresentacao-inf div#apresentacao-inf-esquerda{
 div#apresentacao-inf div#apresentacao-inf-direita{
     background-image: url(../imagens/transicao-botao.png);
     background-repeat: no-repeat;
-    width: 33.3%;
+    background-size: contain;
+    width: 30%;
     height: 50px;
     background-position: right;
 }
@@ -313,6 +314,7 @@ section#sobre{
 section#sobre div#sobre-esquerda{
     width: 60%;
     height: 100%;
+    padding-bottom: 30px;
     background-color: #cb032c;
     align-items: center;
 

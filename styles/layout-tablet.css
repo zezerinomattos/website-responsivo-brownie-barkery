@@ -1,0 +1,193 @@
+/*--------------------------*/
+/*  ELEMENTOS DO HEADER     */
+/*--------------------------*/
+
+/* MENU */
+@media screen and (max-width:880px) {
+    nav#principal-menu ul#menu-descktop li a{
+        font-size: 80%;
+    }
+
+    nav#principal-menu div#menu-botao-botao{
+        padding: 5px 15px;
+    }
+
+    nav#principal-menu div#menu-botao-botao a h3{
+        font-size: 90%;
+    }
+}
+
+
+
+/*--------------------------*/
+/*   SECTION APRESENTAÇÃO   */
+/*--------------------------*/
+section#apresentacao div#apresentacao-inf{
+    width: 70%;
+}
+
+div#apresentacao-inf div#apresentacao-inf-esquerda{
+    width: 30%;
+}
+
+div#apresentacao-inf div#apresentacao-inf-direita{
+    width: 30%;
+}
+
+@media screen and (max-width:890px) {
+
+    section#apresentacao{
+        padding-bottom: 40px;
+    }
+
+    section#apresentacao div#apresentacao-principal{
+        width: 80%;
+    }    
+
+    section#apresentacao p{
+        width: 65%;
+    }
+
+    section#apresentacao div#apresentacao-inf{
+        margin-top: 40px;
+        width: 75%;
+    }
+
+    div#apresentacao-inf-centro-botao h3{
+        font-size: 110%;
+    }
+
+    div#apresentacao-inf div#apresentacao-inf-centro-botao{
+        padding: 10px 20px;
+    }
+
+    div#apresentacao-inf div#apresentacao-inf-esquerda{
+        width: 25%;
+    }
+    
+    div#apresentacao-inf div#apresentacao-inf-direita{
+        width: 25%;
+    }
+}
+
+/*--------------------------*/
+/*   SECTION COMO ENCONTRAR */
+/*--------------------------*/
+
+section#como-encontrar{
+    margin-bottom: 60px;
+}
+
+div#como-encontrar-direita .informacao-como-encontrar h4{
+    font-size: 110%;
+}
+
+div#como-encontrar-direita .informacao-como-encontrar p{
+    font-size: 80%;
+}
+
+/*--------------------------*/
+/*   SECTION OS MAIS AMADOS */
+/*--------------------------*/
+
+section#mais-amados div#mais-amados-imagem{
+    width: 94%;   
+}
+
+div#mais-amados-imagem div.mais-amados-menu p{
+    width: 90%;
+    font-size: 80%;
+}
+
+@media screen and (max-width:890px){
+    section#mais-amados h1{
+        font-size: 250%;
+        transition-duration: 1s;
+    }
+    div#mais-amados-imagem div.mais-amados-menu h2{
+        font-size: 100%;
+    }
+}
+
+/*--------------------------*/
+/*  ELEMENTOS DO SOBRE      */
+/*--------------------------*/
+
+section#sobre{
+    height: 400px;
+}
+
+section#sobre div#sobre-esquerda h1{
+    font-size: 200%;
+    margin-bottom: 1rem;
+    transition-duration: 1s;
+}
+
+section#sobre div#sobre-esquerda hr {
+    margin-bottom: 1.5rem;
+}
+
+section#sobre div#sobre-esquerda p{
+    width: 80%;
+    line-height: 1.3;
+    font-size: 100%;
+    margin-bottom: 10px;
+}
+
+/*--------------------------*/
+/*  ELEMENTOS DO CONTATO    */
+/*--------------------------*/
+
+@media screen and (max-width:900px) {
+    section#contato{
+        height: 530px;
+    }
+
+    section#contato div#contato-formulario{
+        width: 45%;
+    }
+
+    div#contato-formulario label{
+        margin-left: 2.2rem;
+    }
+
+    section#contato div#contato-formulario #form-mensagem-botao{
+        padding: .5rem 5.5rem;
+    }
+
+    /* Mapa */
+
+    section#contato div#contato-localizacao{
+        width: 45%;
+    }
+
+    section#contato div#contato-localizacao p{
+        font-size: 80%;
+    }
+}
+
+/*--------------------------*/
+/*  ELEMENTOS DO FUTER      */
+/*--------------------------*/
+
+/* Contato */
+footer.footer div#footer-principal{
+    width: 95%;
+}
+
+div#footer-principal div#footer-principal-logo{
+    width: 20%;
+}
+
+div#footer-principal div#footer-principal-contato{
+    width: 35%;
+}
+
+div#footer-principal div#footer-principal-menu{
+    width: 20%;
+    margin-right: 10px;
+}
+
+div#footer-principal div#footer-principal-redes-sociais{
+    width: 20%;
+}
