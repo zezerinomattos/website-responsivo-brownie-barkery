@@ -136,11 +136,30 @@ div.informacao-como-encontrar img{
     section#como-encontrar{
         width: 100%;   
         height: auto;
-        padding-bottom: 20px;
         align-items: center;
+        background-color: #2F160B;
 
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
+    }
+
+    section#como-encontrar div#como-encontrar-direita{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 20px;
+
+        background-color: #FAAF9A;
+    }
+
+    div#como-encontrar-esquerda img{
+        display: none;
+    }
+    div#como-encontrar-direita .informacao-como-encontrar h4{
+        font-size: 120%;
+    }
+
+    div#como-encontrar-direita .informacao-como-encontrar p{
+        font-size: 100%;
     }
 }
