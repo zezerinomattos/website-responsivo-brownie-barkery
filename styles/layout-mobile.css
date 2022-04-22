@@ -83,3 +83,64 @@ nav#principal-menu ul#menu-botao{
 header div#principal-img{
     height: 300px;
 }
+
+/*--------------------------*/
+/*   SECTION APRESENTAÇÃO   */
+/*--------------------------*/
+
+section#apresentacao h1{
+    font-size: 240%;
+}
+
+section#apresentacao p{
+    font-size: 80%;
+}
+
+@media screen and (max-width:550px) {
+
+    div#apresentacao-principal .apresentacao-brownies{
+        height: auto;
+    }
+
+    div#apresentacao-inf div#apresentacao-inf-centro{
+        margin: auto;
+    }
+    
+    div#apresentacao-inf div#apresentacao-inf-esquerda, div#apresentacao-inf div#apresentacao-inf-direita{
+        display: none;
+    }
+
+}
+
+/*--------------------------*/
+/*   SECTION COMO ENCONTRAR */
+/*--------------------------*/
+
+section#como-encontrar{
+    height: 300px;
+}
+
+div#como-encontrar-direita .informacao-como-encontrar h4{
+    font-size: 90%;
+}
+
+div#como-encontrar-direita .informacao-como-encontrar p{
+    font-size: 70%;
+}
+
+div.informacao-como-encontrar img{
+    width: 22%;
+}
+
+@media screen and (max-width:720px) {
+    section#como-encontrar{
+        width: 100%;   
+        height: auto;
+        padding-bottom: 20px;
+        align-items: center;
+
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+}
