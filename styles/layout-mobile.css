@@ -25,10 +25,20 @@ nav#principal-menu ul#icone-menu li{
     list-style: none;
 }
 
-nav#principal-menu ul#icone-menu ion-icon{
+/*----------- MENUS MOBILE-----------*/
+nav#principal-menu ul#icone-menu ion-icon#menu-humburguer{
     font-size: 250%;
     color: #632D0B;
 }
+
+nav#principal-menu ul#icone-menu ion-icon#menu-X{
+    font-size: 250%;
+    color: #632D0B;
+
+    display: none;
+}
+
+/*-----------------------------------------*/
 
 nav#principal-menu ul#menu-descktop{
     width: 85%;
