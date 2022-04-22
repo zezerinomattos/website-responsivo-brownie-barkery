@@ -61,6 +61,10 @@ div#logo img{
     max-height: 100%;
 }
 
+nav#principal-menu ul#icone-menu{
+    display: none;
+}
+
 nav#principal-menu ul#menu-descktop{
     width: 50%;
     float: left;
@@ -70,11 +74,6 @@ nav#principal-menu ul#menu-descktop{
     display: flex;
     flex-flow: row wrap;
     justify-content: right;
-
-    animation-name: Nave-LogoMenu-imagem;
-    animation-duration: 2s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: backwards;
 }
 
 nav#principal-menu ul#menu-botao{
@@ -496,7 +495,7 @@ div#footer-principal div#footer-principal-redes-sociais ul{
     margin-left: .5rem;
 
     display: flex;
-    flex-flow: row ;
+    flex-flow: row;
 }
 
 

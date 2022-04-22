@@ -1,0 +1,65 @@
+/*--------------------------*/
+/*  ELEMENTOS DO HEADER     */
+/*--------------------------*/
+
+/* MENU */
+
+header nav#principal-menu{
+    height: 60px;
+}
+
+nav#principal-menu div#logo{
+    width: 20%;
+    height: 90%;
+    margin-left: 5rem;
+}
+
+nav#principal-menu ul#icone-menu{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    right: 40px;
+}
+
+nav#principal-menu ul#icone-menu li{
+    list-style: none;
+}
+
+nav#principal-menu ul#icone-menu ion-icon{
+    font-size: 250%;
+    color: #632D0B;
+}
+
+nav#principal-menu ul#menu-descktop{
+    width: 85%;
+    height: 430px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    float: right;
+    background: linear-gradient(rgba(139, 49, 49) 0%, rgba(89,18,2) 45%, rgba(139, 49, 49, 0.9) 100%);
+    padding-left: 20px;
+    padding-top: 20px;
+    
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: right;
+
+    z-index: 999;
+    display: none;
+}
+
+nav#principal-menu ul#menu-descktop li{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav#principal-menu ul#menu-descktop li a{
+    font-size: 120%;
+    color: #FFFF;
+}
+
+nav#principal-menu ul#menu-botao{
+    display: none;
+}

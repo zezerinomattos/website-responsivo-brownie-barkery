@@ -4,6 +4,11 @@
 
 /* MENU */
 @media screen and (max-width:880px) {
+
+    header nav#principal-menu{
+        height: 100px;
+    }
+
     nav#principal-menu ul#menu-descktop li a{
         font-size: 80%;
     }
