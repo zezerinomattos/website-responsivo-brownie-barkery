@@ -4,6 +4,10 @@
 
 /* MENU */
 
+header#principal{
+    height: auto;
+}
+
 header nav#principal-menu{
     height: 60px;
 }
@@ -72,4 +76,10 @@ nav#principal-menu ul#menu-descktop li a{
 
 nav#principal-menu ul#menu-botao{
     display: none;
+}
+
+/* iMAGEM */
+
+header div#principal-img{
+    height: 300px;
 }

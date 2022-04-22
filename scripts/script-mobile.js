@@ -9,7 +9,6 @@ function mostrarMenu(){
     $('nav#principal-menu ul#icone-menu ion-icon#menu-X').css('display', 'flex');
 
     $('nav ul#menu-descktop').addClass('animate__animated animate__fadeInRight animate__slow');
-
 }
 
 function esconderMenu(){  
