@@ -241,9 +241,36 @@ div#mais-amados-imagem div.mais-amados-menu hr{
 /*--------------------------*/
 
 section#sobre{
-    height: 300px;
+    height: 340px;
 }
 
 section#sobre div#sobre-esquerda p{
     font-size: 80%;
+}
+
+@media screen and (max-width:620px) {
+    section#sobre{
+        height: 370px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+
+        align-items: center;
+    }
+
+    section#sobre div#sobre-direita{
+        display: none;
+    }
+
+    section#sobre div#sobre-esquerda{
+        width: 100%;
+    }
+
+    section#sobre div#sobre-esquerda h1{
+        font-size: 250%;
+    }
+
+    section#sobre div#sobre-esquerda p{
+        font-size: 90%;
+    }
 }
