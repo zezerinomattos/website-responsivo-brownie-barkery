@@ -31,7 +31,4 @@ $('nav#principal-menu ul#icone-menu').click(function(){
         esconderMenu();
         controle = true;
     }
-
-    
-    console.log(controle);
 })
