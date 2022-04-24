@@ -198,3 +198,43 @@ div#mais-amados-imagem div.mais-amados-menu hr{
     margin-bottom: 20px;
 }
 
+@media screen and (max-width:680px) {
+
+    section#mais-amados hr{
+        margin-bottom: 10px;
+    }
+
+    section#mais-amados div#mais-amados-imagem{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+
+        align-items: center;
+    }
+   
+    div#mais-amados-imagem div.mais-amados-menu{
+        width: 80%;
+        height: 460px;
+
+        margin-bottom: 10px;
+    }
+
+    div#mais-amados-imagem div.mais-amados-menu img{
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    section#mais-amados div#mais-amados-inferior{
+        margin-top: 10px;
+    }
+
+
+
+}
+
+@media screen and (max-width:550px) {
+    section#mais-amados h1{
+        font-size: 200%;
+    }
+}
+
