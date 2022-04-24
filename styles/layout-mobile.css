@@ -274,3 +274,29 @@ section#sobre div#sobre-esquerda p{
         font-size: 90%;
     }
 }
+
+/*--------------------------*/
+/*  ELEMENTOS DO CONTATO    */
+/*--------------------------*/
+
+section#contato{
+    height: 500px;
+}
+
+section#contato div#contato-formulario h3{
+    font-size: 120%;
+    margin-bottom: 1rem;
+}
+
+div#contato-formulario form input.formulario,select#assunto{
+    height: 1.4rem;
+    font-size: 80%;
+}
+
+section#contato div#contato-localizacao ion-icon{
+    font-size: 100%;
+}
+
+section#contato div#contato-localizacao p{
+    font-size: 70%;
+}
