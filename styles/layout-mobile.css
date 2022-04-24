@@ -228,8 +228,6 @@ div#mais-amados-imagem div.mais-amados-menu hr{
         margin-top: 10px;
     }
 
-
-
 }
 
 @media screen and (max-width:550px) {
@@ -238,3 +236,14 @@ div#mais-amados-imagem div.mais-amados-menu hr{
     }
 }
 
+/*--------------------------*/
+/*  ELEMENTOS DO SOBRE      */
+/*--------------------------*/
+
+section#sobre{
+    height: 300px;
+}
+
+section#sobre div#sobre-esquerda p{
+    font-size: 80%;
+}
