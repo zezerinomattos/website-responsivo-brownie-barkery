@@ -163,3 +163,38 @@ div.informacao-como-encontrar img{
         font-size: 100%;
     }
 }
+
+/*--------------------------*/
+/*   SECTION OS MAIS AMADOS */
+/*--------------------------*/
+
+section#mais-amados div#mais-amados-imagem{
+    width: 90%;
+}
+
+section#mais-amados h1{
+    font-size: 240%;
+}
+
+section#mais-amados p{
+    font-size: 80%;
+}
+
+div#mais-amados-imagem div.mais-amados-menu img{
+    height: 200px;
+}
+
+div#mais-amados-imagem div.mais-amados-menu h2{
+    font-size: 90%;
+}
+
+div#mais-amados-imagem div.mais-amados-menu p{
+    width: 90%;
+    font-size: 70%;
+}
+
+div#mais-amados-imagem div.mais-amados-menu hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
