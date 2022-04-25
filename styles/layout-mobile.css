@@ -98,6 +98,10 @@ section#apresentacao p{
 
 @media screen and (max-width:550px) {
 
+    section#apresentacao div#apresentacao-principal{
+        width: 95%;
+    }
+
     div#apresentacao-principal .apresentacao-brownies{
         height: auto;
     }
@@ -111,6 +115,19 @@ section#apresentacao p{
     }
 
 }
+
+@media screen and (max-width:470px) {
+
+    section#apresentacao h1{
+        font-size: 180%;
+    }
+    
+    section#apresentacao p{
+        width: 90%;
+        font-size: 75%;
+    }
+}
+
 
 /*--------------------------*/
 /*   SECTION COMO ENCONTRAR */
@@ -161,6 +178,33 @@ div.informacao-como-encontrar img{
 
     div#como-encontrar-direita .informacao-como-encontrar p{
         font-size: 100%;
+    }
+}
+
+@media screen and (max-width:490px) {
+    div#como-encontrar-direita div#como-encontrar-direita-sup{
+        width: 98%;
+    }
+
+    div#como-encontrar-direita div.informacao-como-encontrar{
+        width: 48%;
+    }
+
+    div.informacao-como-encontrar img{
+        width: 15%;
+        margin-top: .8rem;
+    }
+
+    div#como-encontrar-direita div#como-encontrar-direita-inf{
+        width: 98%;
+    }
+
+    div#como-encontrar-direita .informacao-como-encontrar h4{
+        font-size: 100%;
+    }
+
+    div#como-encontrar-direita .informacao-como-encontrar p{
+        font-size: 80%;
     }
 }
 
