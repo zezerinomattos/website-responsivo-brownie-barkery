@@ -278,6 +278,19 @@ div#mais-amados-imagem div.mais-amados-menu hr{
     section#mais-amados h1{
         font-size: 200%;
     }
+
+    section#mais-amados h3{
+        font-size: 110%;
+}
+
+@media screen and (max-width:450px) {
+    section#mais-amados h1{
+        font-size: 150%;
+    }
+
+    div#mais-amados-imagem div.mais-amados-menu p{
+        width: 100%;
+    }
 }
 
 /*--------------------------*/
