@@ -11,7 +11,7 @@ Com isso criamos uma estratégia para deixar os usuários confortáveis e tentad
 
 Este foi desenvolvido com a linguagem de marcação de hipertexto HTML, foi usado o CSS para estilizar e fazer algumas animações com o animate, também foi usado a linguagem de programação JavaScript usando recursos do JQuery. Foi usado a IDE Visual Studio Code.
 
-# [Link_para_o_site] (https://zezerinomattos.github.io/website-responsivo-brownie-barkery/)
+# [Link para o site](https://zezerinomattos.github.io/website-responsivo-brownie-barkery/)
 <img width="959" alt="Barkey-com mobile" src="https://user-images.githubusercontent.com/75408744/165169422-534b2185-7858-412f-860e-4ac62de588cf.png">
 <br>
 <img width="960" alt="Barkey-com mobile02" src="https://user-images.githubusercontent.com/75408744/165169596-f3fd17d3-9f92-41a9-9340-6082f354df30.png">
