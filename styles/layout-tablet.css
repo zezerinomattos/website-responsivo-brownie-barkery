@@ -91,6 +91,18 @@ div#como-encontrar-direita .informacao-como-encontrar p{
     font-size: 80%;
 }
 
+@media screen and (max-width:800px) {
+    div#como-encontrar-direita div#como-encontrar-direita-sup{
+        width: 98%;
+    }
+    div#como-encontrar-direita div.informacao-como-encontrar{
+        width: 48%;
+    }
+    div#como-encontrar-direita div#como-encontrar-direita-inf{
+        width: 98%;
+    }
+}
+
 /*--------------------------*/
 /*   SECTION OS MAIS AMADOS */
 /*--------------------------*/
