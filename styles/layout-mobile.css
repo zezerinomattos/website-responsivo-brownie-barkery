@@ -339,3 +339,58 @@ section#contato div#contato-localizacao p{
         padding-bottom: 2rem;
     }
 }
+
+/*--------------------------*/
+/*  ELEMENTOS DO FOOTER      */
+/*--------------------------*/
+
+footer.footer div#footer-principal{
+    width: 100%;
+}
+
+/* Logo */
+
+div#footer-principal div#footer-principal-logo{
+    display: none;
+}
+
+/* Contato */
+
+div#footer-principal div#footer-principal-contato{
+    width: 45%;
+}
+
+div#footer-principal div#footer-principal-contato h3, div#footer-principal-menu h3, div#footer-principal-redes-sociais h3{
+    font-size: 120%;
+}
+
+div#footer-principal-contato ul.footer-contato li ion-icon{
+    font-size: 80%;
+}
+
+@media screen and (max-width:570px) {
+    div#footer-principal-contato ul.footer-contato li a, div#footer-principal-menu ul li a{
+        font-size: 70%;
+    }
+}
+
+div#footer-principal-contato ul.footer-contato li a, div#footer-principal-menu ul li a{
+    font-size: 80%;
+}
+
+/* Menu */
+
+div#footer-principal div#footer-principal-menu{
+    width: 25%;
+}
+
+
+/* Rede-sociais */
+
+div#footer-principal div#footer-principal-redes-sociais{
+    width: 25%;
+}
+
+div#footer-principal div#footer-principal-redes-sociais ul li a ion-icon{
+    font-size: 110%;
+}
